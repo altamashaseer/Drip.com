@@ -91,8 +91,9 @@ body {
     /* As products were overlapping */
 }
 
-#header img {
-    width: 33%;
+#logo {
+    width: 130px;
+    padding: 0 5px;
 }
 
 #navbar {
@@ -339,7 +340,7 @@ body {
 
 #sm-banner .banner-box2 {
     background: url('media/banner/b10.jpg') center center/cover;
-    
+
 }
 
 #sm-banner h4 {
@@ -473,7 +474,8 @@ footer .col {
 }
 
 footer .logo {
-    margin-bottom: 20px;
+    width: 120px;
+    margin-bottom: 2rem;
 }
 
 footer h4 {
@@ -531,15 +533,18 @@ footer a:hover {
     .section-p1 {
         padding: 20px;
     }
-    h1{
+
+    h1 {
         font-size: 35px;
         line-height: normal;
     }
-    h2{
+
+    h2 {
         font-size: 30px;
         line-height: normal;
     }
-    h4{
+
+    h4 {
         font-size: 20px;
         padding-bottom: 5px;
         line-height: normal;
@@ -559,6 +564,13 @@ footer a:hover {
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
         padding: 80px 0 0 10px;
         transition: .3s;
+    }
+
+    /* LOGO  */
+    #logo,
+    footer .logo {
+        width: 90px;
+        padding: 0;
     }
 
     #navbar.nvactive {
@@ -634,14 +646,17 @@ footer a:hover {
     #banner3 .banner-box {
         width: 30%;
     }
+
     #newsletter {
         justify-content: center;
         text-align: center;
         padding: 10px;
     }
+
     #newsletter .form {
         width: 100%;
     }
+
 }
 
 @media (max-width:590px) {
@@ -649,30 +664,36 @@ footer a:hover {
         padding: 10px 30px;
 
     }
+
     /* h1{
         font-size:38px;
     }
     h2{
         font-size:32px;
     } */
-    #hero{
+    #hero {
         background-position: 80%;
     }
+
     #feature .f-box {
         width: 40%;
         margin: 0 0 15px 0;
     }
+
     #feature {
         justify-content: space-evenly;
-   
+
     }
+
     #product1 .pro {
         width: 100%;
     }
+
     #banner3 .banner-box {
-      width: 100%;
+        width: 100%;
     }
-    footer .install img{
+
+    footer .install img {
         width: 100%;
     }
 }
